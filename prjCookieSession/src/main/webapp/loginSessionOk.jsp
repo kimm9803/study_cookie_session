@@ -13,6 +13,7 @@
 		out.print(session.getAttribute("memberId") + "님 환영합니다!" + "<br>");
 	%>
 	
+	<!-- 로그아웃 폼 -->
 	<form action="LogoutSession" method="post">
 		<input type="submit" value="logout">
 	</form>

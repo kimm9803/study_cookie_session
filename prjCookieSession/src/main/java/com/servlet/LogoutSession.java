@@ -23,6 +23,7 @@ public class LogoutSession extends HttpServlet {
 		
 		// 로그인 화면으로 redirect
 		response.sendRedirect("loginSession.jsp");
+		System.out.println("logout");
 	}
 
 

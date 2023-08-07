@@ -29,6 +29,7 @@ public class LoginSession extends HttpServlet {
 		session.setAttribute("memberId", mId);
 		
 		response.sendRedirect("loginSessionOk.jsp");
+		System.out.println("login");
 		
 	}
 

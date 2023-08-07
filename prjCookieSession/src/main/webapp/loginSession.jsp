@@ -14,6 +14,8 @@
 			response.sendRedirect("loginSessionOk.jsp");
 		}
 	%>
+	
+	<!-- 로그인 폼 -->
 	<form action="LoginSession" method="post">
 		ID : <input type="text" name="mID"><br>
 		PW : <input type="password" name="mPW"><br>
